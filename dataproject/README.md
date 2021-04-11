@@ -1,6 +1,6 @@
 # Data analysis project
 
-Our project is titled **School performance across Danish Municipalities** and is about how students in primary school perform in the context of their gpa across different municipalities in Denmark .
+Our project is titled **School performance across Danish Municipalities** and evolves around student performance in primary school in the context of their gpa across different municipalities in Denmark.
 
 The **results** of the project can be seen from running [dataproject.ipynb](dataproject.ipynb).
 
