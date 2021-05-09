@@ -111,3 +111,6 @@ def simulate_solow_model(k0,alpha,delta,s,n,g,T,D):
 
 def find_ssk_k(delta,g,n,alpha,s,D):
     return ((delta+g*n+g+n)/(s*(1-D)))**(1/(alpha-1))
+
+def ss(n)
+    return n
