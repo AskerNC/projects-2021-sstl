@@ -100,6 +100,7 @@ def simulate_solow_model(k0,alpha,delta,s,n,g,T,D):
     # b. simulate forward
     for t in range(1,T):
         
+
         # i. apply solow equation
         k_plus = solow_equation(k_path[t-1],alpha,delta,s,n,g,D)    
         
@@ -112,5 +113,5 @@ def simulate_solow_model(k0,alpha,delta,s,n,g,T,D):
 def find_ssk_k(delta,g,n,alpha,s,D):
     return ((delta+g*n+g+n)/(s*(1-D)))**(1/(alpha-1))
 
-def ss(n)
-    return n
+#def ss(n)
+ #   return n
